@@ -2,7 +2,7 @@ image: Window10
 stack: node 12
 branches:
   only:
-    - master
+    - main
 cache: node_modules
 install:
   - yarn install
