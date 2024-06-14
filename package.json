@@ -1,10 +1,10 @@
 {
   "scripts": {
-    "build": "babel src -d dist",
+    "build": "webpack --mode production",
     "start": "webpack serve --mode development",
     "lint": "eslint ."
   },
-  "name": "events",
+  "name": "events12",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:saetovdinar/events.git",
@@ -27,6 +27,7 @@
     "webpack-dev-server": "^5.0.4"
   },
   "dependencies": {
-    "core-js": "3"
+    "core-js": "3",
+    "require": "^2.4.20"
   }
 }

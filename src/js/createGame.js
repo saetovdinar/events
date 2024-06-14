@@ -38,10 +38,11 @@ class GameControl {
             this.score.render()
 
             if(this.score.fail === 5) {
-                this.gameOver()
+                
                 clearInterval(this.addGoblinInterval)
-                clearImmediate(this.missGoblinInterval)
-                this.setGoblin()
+                clearTimeout(this.missGoblinInterval)
+                this.gameOver()
+                this.refreshGame()
                
             };
             
@@ -61,8 +62,16 @@ class GameControl {
     }
     gameOver() {
         this.score.clear()
-       console.log('game over');
+       alert('game over');
     }
+    refreshGame() {
+        const arrOfField = this.element.querySelectorAll('.piece_of_field');
+        arrOfField.forEach((item) => {
+            item.classList.remove('add_goblin');
+        } );
+        this.setGoblin()
+    }
+    
 }
 
 new GameControl(document.querySelector('.root'), 16)
