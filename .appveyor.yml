@@ -1,5 +1,5 @@
 image: Window10
-stack: node 12
+stack: node 22
 branches:
   only:
     - main
@@ -8,6 +8,8 @@ install:
   - yarn install
 build: 
   - off
+build_script:
+  - yarn run build
 test_script:
   - yarn run lint
 
