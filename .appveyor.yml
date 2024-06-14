@@ -1,4 +1,4 @@
-image: Windows10
+image: Windows2019
 stack: node 22
 branches:
   only:
