@@ -1,7 +1,4 @@
 ![CI](https://github.com/<saetovdinar>/<events>/actions/workflows/web.yml/badge.svg)
 
-[![Build status](https://ci.appveyor.com/api/projects/status/71e2ysghhql5b63c?svg=true)](https://ci.appveyor.com/project/saetovdinar/ahj-code)
+[![Build status](https://ci.appveyor.com/api/projects/status/sh8kjindhnsxi8df?svg=true)](https://ci.appveyor.com/project/saetovdinar/events)
 
-https://ci.appveyor.com/api/projects/status/71e2ysghhql5b63c?svg=true
-
-https://ci.appveyor.com/api/projects/status/71e2ysghhql5b63c
