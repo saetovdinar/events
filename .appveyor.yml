@@ -1,4 +1,4 @@
-image: Window10
+image: Windows10
 stack: node 22
 branches:
   only:
