@@ -13,8 +13,8 @@ test_script:
   - yarn run lint
 deploy_script:  
   - git config --global credential.helper store
-  - git config --global user.name AppVeyor
-  - git config --global user.email ci@appveyor.com
+  - git config --global user.name saetov98
+  - git config --global user.email saetonskie@mail.ru
   - echo "https://$GITHUB_TOKEN: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@github.com" > "$HOME/.git-credentials"
   - npx push-dir --dir=dist --branch=gh-pages --force --verbose
 
