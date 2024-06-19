@@ -11,6 +11,7 @@ build_script:
   - yarn run build
 test_script:
   - yarn run lint
+
 deploy_script:  
   - git config --global credential.helper store
   - git config --global user.name saetovdinar
