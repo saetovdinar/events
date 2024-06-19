@@ -1,5 +1,5 @@
-image: Visual Studio 2019
-stack: node 22
+image: Ubuntu2204
+stack: node 20
 branches:
   only:
     - main
